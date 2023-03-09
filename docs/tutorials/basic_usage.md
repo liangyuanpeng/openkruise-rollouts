@@ -7,6 +7,7 @@ This guide will demonstrate various concepts and features of Kruise Rollout by g
 ## Requirements
 - Helm installation of Kruise Rollout, Reference [Install Kruise Rollout](../getting_started/installation.md).
 - Helm installation of Nginx Ingress Controller, (e.g. **helm upgrade --install ingress-nginx ingress-nginx --repo https://kubernetes.github.io/ingress-nginx --namespace ingress-nginx**)
+- Command of kubectl-kruise, Reference [Install kubectl-kruise](https://openkruise.io/zh/docs/cli-tool/kubectl-plugin)
 
 ## 1. Deploy Business Application (Contains Deployment, Service and Ingress)
 This is an example of **echoserver application, which contains ingress, service, and deployment crd resources**, as follows:
